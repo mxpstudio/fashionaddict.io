@@ -502,7 +502,7 @@
 
 .parallax-container {
   height: 600px;
-  background-image: url("/images/back_model.jpg");
+  background-image: url(back_model.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -531,7 +531,7 @@
 /* Media Smartphone */
 @media (max-width: 480px) {
   .parallax-container {
-    background-image: url("/images/model_back_mobile.jpg");
+    background-image: url(model_back_mobile.jpg);
     height: 300px;
   }
 
