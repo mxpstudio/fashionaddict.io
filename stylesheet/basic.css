@@ -532,7 +532,7 @@
 @media (max-width: 480px) {
   .parallax-container {
     background-image: url("../images/model_back_mobile.jpg");
-    height: 300px;
+    height: 500px;
   }
 
   .text-container h2 {
