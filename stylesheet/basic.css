@@ -504,9 +504,9 @@
   height: 600px;
   background-image: url("../images/back_model.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
   overflow-x: hidden;
 }
 
