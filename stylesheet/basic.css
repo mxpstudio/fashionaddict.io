@@ -576,6 +576,32 @@
 
 }
 
+/* Media query per smartphone generici */
+@media (max-width: 480px) {
+  .parallax-container {
+    background-image: url("../images/model_back_mobile.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+  }
+}
+
+/* Media query iPhone */
+@media only screen 
+  and (device-width : 375px) 
+  and (device-height : 812px) 
+  and (-webkit-device-pixel-ratio : 3) 
+{
+  .parallax-container {
+    background-image: url("../images/model_back_mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+  }
+
+}
 
 /* Filters */
 
